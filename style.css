@@ -201,10 +201,9 @@ li {
 }
 
 .format-block {
-    height: 350px;
-
     margin-top: 50px;
     background-color: rgb(103, 26, 26);
+    padding-bottom: 10px;
 
 }
 
