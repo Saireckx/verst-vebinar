@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.main-content {
+    background: radial-gradient(circle at center, #a83e3ed5 30%, #ffffff 60%, #ffffff 100%);
+    position: relative;
+    z-index: 1;
+}
+
+.titles {
+    margin-top: 100px;
+    padding-left: 25px;
+    color: rgb(154, 13, 13);
+}
+
+.title-name {
+    font-size: 30px;
+}
+
+.subtitle {
+    color: rgb(154, 13, 13);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-first {
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-second {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: rgb(132, 32, 32);
+    color: wheat;
+    border: 1px solid rgb(132, 32, 32);
+    font-size: 18px;
+    font-family: "Montserrat Alternates", sans-serif;
+
+}
+
+.first-btn:hover {
+    background-color: rgb(132, 32, 32);
+    color: wheat;
+    transition: 0.3s;
+
+}
+
+.first-btn__wrapper {
+    padding-left: 25px;
+    margin-top: 350px;
+    position: absolute;
+}
+
+.about-block-short {
+    background-color: rgb(103, 26, 26);
+
+    margin-top: 50px;
+    color: rgb(211, 205, 195);
+}
+
+.about-titles__start {
+    text-align: center;
+
+}
+
+.about-titles__next {
+    display: block;
+    margin-top: 20px;
+}
+
+.about-titles {
+    font-size: 20px;
+    margin: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-price {
+    background-color: rgb(103, 26, 26);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    text-align: center;
+}
+
+.banner-price__wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 300px;
+}
+
+.main-img img {
+    width: 100%;
+    position: absolute;
+    height: 500px;
+}
+
+.about-block-long {
+    height: 400px;
+
+}
+
+.about-subtitles {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(103, 26, 26);
+}
+
+.titles-long {
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: rgb(103, 26, 26);
+}
+
+.healthy-block {
+
+    background-color: rgb(103, 26, 26);
+}
+
+.healthy-subtitles {
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.healthy-item {
+    color: wheat;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.healthy-item-block {
+    padding: 10px;
+}
+
+.fa-solid {
+    padding: 5px;
+
+}
+
+.info-block {
+    color: rgb(103, 26, 26);
+}
+
+.info-subtitles {
+    text-align: center;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.info-item {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.feedback-block {
+    border: 2px solid rgb(103, 26, 26);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.feedback-title {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.format-block {
+    height: 350px;
+
+    margin-top: 50px;
+    background-color: rgb(103, 26, 26);
+
+}
+
+.format-subtitles {
+    font-size: 20px;
+    text-align: center;
+    color: wheat;
+    padding-top: 20px;
+}
+
+.format-item {
+    color: wheat;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.format-item i {
+    padding-right: 10px;
+}
+
+.format-list {
+    padding-right: 20px;
+}
+
+.main-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+.author-titles__name {
+    display: block;
+}
+.author-titles {
+    height: 200px;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+.author-titles__hello {
+    font-size: 20px;
+}
+.author-titles__name {
+    font-size: 24px;
+    padding-top: 5px;
+}
+.author-titles__who {
+    display: block;
+    padding-top: 10px;
+    color: rgb(122, 21, 21);
+}
+.psy-img img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.payment-subtitle {
+    text-align: center;
+    font-size: 25px;
+}
+.price-title {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+}
+.price {
+    font-size: 20px;
+    margin: 0px;
+}
+.btn-pay {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.payment-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: rgb(132, 32, 32);
+    border: 2px solid rgb(132, 32, 32);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.after-pay {
+    text-align: center;
+    padding-top: 20px;
+}
+.after-payment-item {
+    list-style-type: none;
+    position: relative;
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+.after-payment-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    width: 10px;      
+    height: 2px;      
+    background: #7a1a1a;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.decorative-block {
+    width: 200px;
+    height: 7px;
+    
+    background-color: #7a1a1a;
+}
+.decorative-block__wrap{    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    background-color: rgb(103, 26, 26);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-link i {
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+}
+.instagram-button {
+    display: flex;
+    justify-content: center;
+}
+.review-block {
+    height: 500px;
+    margin-top: 50px;
+}
+.review-subtitle{
+    text-align: center;
+    font-size: 25px;
+}
+.review {
+    border: 2px solid rgb(103, 26, 26);
+    border-radius: 50px;
+    margin: 10px;
+}
+.title-review {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.more-info {
+    padding-top: 15px;
+    display: block;
+    padding-right: 10px;
+}
